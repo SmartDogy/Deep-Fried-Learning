@@ -1,0 +1,7 @@
+| Layer Type                                  | Activation Function    | Use Case                                  |
+| ------------------------------------------  | --------------------   | ----------------------------------------- |
+| Hidden layers                               | ReLU (or Leaky ReLU)   | Default choice in deep nets               |
+| Hidden layers                               | Tanh                   | Smaller networks or when data is centered |
+| Output layer (binary classification)        | Sigmoid                | Outputs probability (0 to 1)              |
+| Output layer (multi-class classification)   | Softmax                | Outputs probabilities summing to 1        |
+| Output layer (regression)                   | Linear (Identity)      | Outputs continuous value                  |
